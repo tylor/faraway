@@ -6,26 +6,26 @@ layout: default
 
 <section>
   <article>
-    <h1>Lytton, British Columbia</h1>
+    <h1><a href="#lytton">Lytton, British Columbia</a></h1>
     <section>
       <p>This is some content!</p>
     </section>
   </article>
   <article>
-    <h1>Beirut, Lebanon</h1>
+    <h1><a href="#beirut">Beirut, Lebanon</a></h1>
     <section>
       <p>This is some content!</p>
     </section>
   </article>
   <article>
-    <h1>Helike, Greece</h1>
+    <h1><a href="#helike">Helike, Greece</a></h1>
     <section>
       <p>This is some content!</p>
     </section>
   </article>
 </section>
 
-<section>
-  <p>Send me a copy</p>
-  <p>What do I get?</p>
+<section class="footer">
+  <a href="#buy" class="button">Send me a copy</a>
+  <a class="what" href="#what">What do I get?</a>
 </section>

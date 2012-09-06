@@ -1,16 +1,30 @@
 body {
   margin: 0;
+  font-size: 20px;
   background: center top url(images/map.jpg) fixed;
   font-family: "myriad-pro", sans-serif;
+}
+
+.button {
+  display: inline-block;
+  background: #5f5f5f;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 8px 25px;
+}
+.button:hover {
+  background: #222;
 }
 
 #logo {
   text-indent: -9999px;
   margin: 0;
-  padding: 100px 0;
+  padding: 80px 0;
   text-align: center;
   background: white center center url(images/logo.png) no-repeat;
   border-bottom: 3px solid #b1b1b1;
+  margin-bottom: 60px;
 }
 
 article, section {
@@ -18,5 +32,35 @@ article, section {
   margin: 0 auto;
 }
 
-article h1 { }
+article h1 a {
+  display: block;
+  font-size: 30px;
+  color: #4f4f4f;
+  height: 75px;
+  background: left top url(images/lytton.png?3) no-repeat;
+  margin-left: 80px;
+  padding-left: 120px;
+  margin-bottom: 35px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #ddd;
+}
+article h1 a:hover {
+  color: #222;
+  background-position: left bottom;
+}
 article section { display: none; }
+
+.footer {
+  margin: 70px auto 40px auto;
+  text-align: center;
+  background: center 20px url(images/footer.png) no-repeat;
+}
+.what {
+  margin-top: 8px;
+  font-size: 18px;
+  display: block;
+  color: white;
+  text-shadow: 1px 1px 1px #999;
+}
+.what:hover { text-decoration: none; }
