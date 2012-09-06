@@ -1,13 +1,15 @@
 body {
   margin: 0;
   background: center top url(images/map.jpg) fixed;
+  font-family: "myriad-pro", sans-serif;
 }
 
 #logo {
+  text-indent: -9999px;
   margin: 0;
-  padding: 75px 0;
+  padding: 100px 0;
   text-align: center;
-  background: white;
+  background: white center center url(images/logo.png) no-repeat;
   border-bottom: 3px solid #b1b1b1;
 }
 
