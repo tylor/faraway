@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-size: 20px;
-  background: center top url(images/map.jpg) fixed;
+  background: center top url(images/map.jpg?3) fixed;
   font-family: "myriad-pro", sans-serif;
 }
 
@@ -34,16 +34,17 @@ article, section {
 
 article h1 a {
   display: block;
-  font-size: 30px;
+  font-size: 39px;
+  font-weight: normal;
   color: #4f4f4f;
-  height: 75px;
-  background: left top url(images/lytton.png?3) no-repeat;
+  height: 80px;
+  background: left top url(images/lytton.png) no-repeat;
   margin-left: 80px;
   padding-left: 120px;
   margin-bottom: 35px;
-  padding-top: 25px;
+  padding-top: 20px;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #ddd;
+  /*text-shadow: 1px 1px 1px #ddd;*/
 }
 article h1 a:hover {
   color: #222;
@@ -60,7 +61,7 @@ article section { display: none; }
   margin-top: 8px;
   font-size: 18px;
   display: block;
-  color: white;
-  text-shadow: 1px 1px 1px #999;
+  color: #4f4f4f;
+  /*text-shadow: 1px 1px 1px #999;*/
 }
 .what:hover { text-decoration: none; }
